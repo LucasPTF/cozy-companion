@@ -50,6 +50,6 @@ export const HERO_VARIANTS = {
     cta: "QUERO PARTICIPAR DA AULA",
     microcopy: "Aula online e ao vivo",
   },
-};
+} satisfies Record<string, HeroCopy>;
 
 export const HERO_ATIVO: HeroCopy = HERO_VARIANTS.dor;
