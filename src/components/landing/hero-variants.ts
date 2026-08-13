@@ -10,7 +10,7 @@ export type HeroCopy = {
   microcopy: string;
 };
 
-export const HERO_VARIANTS: Record<string, HeroCopy> = {
+export const HERO_VARIANTS = {
   dor: {
     id: "angulo-1-dor",
     eyebrow: "Aula Semente • online e ao vivo",
